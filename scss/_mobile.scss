@@ -49,6 +49,12 @@
       'job3';
     grid-template-columns: 1fr;
   }
+  .bio h3 {
+    text-align: center;
+  }
+  .job h6 {
+    font-size: 1rem;
+  }
 }
 //Smartphones
 @include mediaSm {
