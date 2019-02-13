@@ -289,4 +289,16 @@ main {
     margin-top: 10vh;
     font-size: 3.2rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1rem;
+    border: 3px #fff solid;
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.3rem 1rem;
+      background: #cff27e;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; } }

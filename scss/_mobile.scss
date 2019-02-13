@@ -74,4 +74,23 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  //Contact Page
+  .boxes {
+    div {
+      font-size: 1rem;
+      border: 3px #fff solid;
+      padding: 1rem 2rem;
+      margin-bottom: 1.5rem;
+      @include easeOut;
+
+      &:hover {
+        padding: 0.3rem 1rem;
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        span {
+          color: set-text-color($secondary-color);
+        }
+      }
+    }
+  }
 }
