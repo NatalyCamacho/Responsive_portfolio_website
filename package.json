@@ -20,7 +20,7 @@
   "homepage": "https://Jmas21.github.io/Responsive_portfolio_website",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {}
 }
